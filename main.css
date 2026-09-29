@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+body{
+    direction:ltr;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7dae7;
+    margin:6px;
+    color:#a55166;
+}
+
+h3{
+    color:#e2b4c1;
+    font-style: italic;
+    margin:10px;
+    border-color: #a55166;
+    box-shadow: 0 0 12px #a55166;
+    padding:6px ;
+    width:fit-content;
+}
+
+.navbarIcon img{
+    width:8%;
+}
+
+a{
+    text-decoration: none;
+    color:#e2b4c1;
+}
+
+.menu{
+    display:flex;
+    justify-content: flex-end;
+    flex-wrap: wrap ;
+    border-radius: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #a55166;
+    padding: 6px 5%;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    margin:10px;
+    cursor :pointer ; 
+    border-radius: 7px;
+}
+
+.navbar{
+    list-style: none;
+    display: flex;
+    padding : 8px 0 ; 
+    gap: 20px;
+    color:#f7dae7; 
+}
+
+.categories{
+    width:90%;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    margin:30px;
+    border-radius:10px;
+    padding:20px;
+}
+
+.products{
+    width:90%;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    margin:30px;
+    border-radius: 10px;
+    padding:20px;
+}
+
+ul{
+    margin:20px;
+}
+
+button {
+  background-color: #a55166; 
+  color: white; 
+  padding: 10px 20px; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  font-size: 16px; 
+  transition: background-color 0.3s, transform 0.2s; 
+  margin: 20px auto; 
+  display: block; 
+}
+
+button:hover {
+  background-color: #e2b4c1; 
+  transform: scale(1.05); 
+}
+
+button:active {
+  background-color: #f7dae7; 
+  transform: scale(0.98); 
+}
+
+
